@@ -238,7 +238,7 @@ public class fflib_ApexMocksUtilsTest
 				new Map<SObjectField, Object> {Account.LastReferencedDate => lastRefDate}
 		);
 		Test.stopTest();
-
+		SObject prof = Schema.getGlobalDescribe().get('Something').newSObject();
 		System.assertEquals(lastRefDate, acc.LastReferencedDate);
 	}
 
