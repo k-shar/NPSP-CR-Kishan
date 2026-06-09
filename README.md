@@ -9,7 +9,7 @@
 * <a href="https://github.com/SalesforceFoundation/NPSP/releases" target="_blank">Release Notes and Beta Releases</a>
 
 #### Try it out
-You can install NPSP utilizing our custom application installer into any Developer Edition, Sandbox or Enterprise Edition Salesforce org.
+You can install NPSP utilizing our custom application installer into any Developer Easdfdition, Sandbox or Enterprise Edition Salesforce org.
 * <a href="https://install.salesforce.org/products/npsp" target="_blank">NPSP Installer</a>
 
 #### Meta
