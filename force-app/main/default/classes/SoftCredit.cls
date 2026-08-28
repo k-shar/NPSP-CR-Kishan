@@ -1,3 +1,14 @@
+  @IsTest
+  private class ClaytonWarningProbeTest {
+      @IsTest
+      static void assertionsWithoutMessages() {
+          Integer expected = 2;
+          Assert.areEqual(expected, 1 + 1);
+          Assert.isTrue(expected == 2);
+      }
+  }
+
+
 /*
     Copyright (c) 2021 Salesforce.org
     All rights reserved.
