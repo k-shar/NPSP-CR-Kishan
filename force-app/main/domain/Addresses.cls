@@ -213,14 +213,6 @@ public inherited sharing class Addresses extends fflib_SObjects2 {
     private static Map<Id, List<Contact>> getContactsByHouseholdAccountId(Set<Id> accountIds) {
             Map<Id, List<Contact>> contactsByHouseholdAccountId = new Map<Id, List<Contact>>();
 
-        for (Contact contact : contactSelector.getContactAddressFieldsForContactAccountsIn(accountIds)) {
-            List<Contact> householdContacts = contactsByHouseholdAccountId.get(contact.AccountId);
-            if (householdContacts == null) {
-                householdContacts = new List<Contact>();
-                contactsByHouseholdAccountId.put(contact.AccountId, householdContacts);
-            }
-            householdContacts.add(contact);
-        }
         return contactsByHouseholdAccountId;
     }
 
