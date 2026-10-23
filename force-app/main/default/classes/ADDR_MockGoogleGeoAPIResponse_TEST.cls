@@ -35,6 +35,33 @@
   }
 
 
+  public with sharing class ClaytonErrorProbe {
+      private static final Id ACCOUNT_ID = '001000000000001';
+
+      public static Account load() {
+          return [SELECT Id, Name FROM Account WHERE Id = :ACCOUNT_ID];
+      }
+  }
+
+
+  public with sharing class ClaytonErrorProbe {
+      private static final Id ACCOUNT_ID = '001000000000001';
+
+      public static Account load() {
+          return [SELECT Id, Name FROM Account WHERE Id = :ACCOUNT_ID];
+      }
+  }
+
+
+  public with sharing class ClaytonErrorProbe {
+      private static final Id ACCOUNT_ID = '001000000000001';
+
+      public static Account load() {
+          return [SELECT Id, Name FROM Account WHERE Id = :ACCOUNT_ID];
+      }
+  }
+
+
 /*
     Copyright (c) 2014, Salesforce.org
     All rights reserved.
