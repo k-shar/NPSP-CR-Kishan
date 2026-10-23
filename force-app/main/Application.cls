@@ -46,6 +46,10 @@ public inherited sharing class Application {
                     }
             );
 
+private void legacyUpdate(Account acc) {
+        acc.Legacy_Field__c = true;
+        update acc;
+    }
     public static final fflib_IServiceFactory Service =
             new fflib_DynamicServiceFactory(bindingResolver)
                     .setSharingMode(fflib_SharingMode.WithSharing);
