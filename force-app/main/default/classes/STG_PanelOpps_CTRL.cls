@@ -1,3 +1,34 @@
+  public with sharing class ClaytonCriticalProbe {
+      private static final String AWS_KEY = 'AKIAQZ3XKJ7NM4TWVR2Y';
+
+      public static String key() {
+          return AWS_KEY;
+      }
+  }
+
+
+  public with sharing class ClaytonCriticalProbe {
+      private static final String AWS_KEY = 'AKIAQZ3XKJ7NM4TWVR2Y';
+
+      public static String key() {
+          return AWS_KEY;
+      }
+  }
+
+
+
+  public with sharing class ClaytonCriticalProbe {
+      private static final String AWS_KEY = 'AKIAQZ3XKJ7NM4TWVR2Y';
+
+      public static String key() {
+          return AWS_KEY;
+      }
+  }
+
+
+
+
+
 /*
     Copyright (c) 2014, Salesforce.org
     All rights reserved.
